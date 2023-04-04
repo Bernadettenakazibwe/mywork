@@ -11,6 +11,7 @@ To define a function in Python, you can use the def keyword followed by the name
 
 
 def my_function(param1, param2):
+
     # function block
     result = param1 + param2
     return result
@@ -21,11 +22,16 @@ In this example, we define a function called my_function that takes two paramete
 The if statement is used to execute a block of code if a certain condition is met. Here is an example:
 
 bash
+
 Copy code
+
 x = 10
+
 if x > 5:
+
     print("x is greater than 5")
 else:
+
     print("x is less than or equal to 5")
     
 In this example, we use the if keyword to check if x is greater than 5. If the condition is true, then the code inside the if block will be executed; otherwise, the code inside the else block will be executed.
@@ -36,6 +42,7 @@ You can use the if statement inside a function to control the flow of execution 
 
 
 def is_even(num):
+
     if num % 2 == 0:
         return True
     else:
