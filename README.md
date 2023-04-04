@@ -16,7 +16,7 @@ def my_function(param1, param2):
     return result
 In this example, we define a function called my_function that takes two parameters and returns their sum.
 
-** Using if for Conditional Statements: **
+*Using if for Conditional Statements:*
 
 The if statement is used to execute a block of code if a certain condition is met. Here is an example:
 
